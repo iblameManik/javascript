@@ -29,7 +29,31 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
-console.log(typeof myFunction);
-console.log(typeof heroes);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+// console.log(typeof myFunction);
+// console.log(typeof heroes);
+
+// ++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "EarnTheory"
+
+let anothername = myYoutubeName
+anothername = "manik mahajan"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "manik@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
